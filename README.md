@@ -2,6 +2,10 @@
 
 Simple progress bars and progress dialogs for Android
 
+<p align="center">
+	<img src="Screenshot.png" alt="Screenshot" width="360" />
+</p>
+
 ## Installation
 
  * Include one of the [JARs](JARs) in your `libs` folder
