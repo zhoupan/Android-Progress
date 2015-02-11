@@ -13,10 +13,20 @@ Simple progress bars and progress dialogs for Android
 ### SimpleProgressDialog
 
 ```
-SimpleProgressDialog dialog;
-dialog = SimpleProgressDialog.show(this);
-// do some work
-dialog.dismiss();
+// keep a reference to the currently opened dialog
+private SimpleProgressDialog mProgressDialog;
+
+...
+
+// show the dialog
+mProgressDialog = SimpleProgressDialog.show(this);
+
+...
+
+// close the dialog
+if (mProgressDialog != null) {
+	mProgressDialog.dismiss();
+}
 ```
 
 ## License
